@@ -1,0 +1,74 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.heavy {
+    font-weight: 700;
+}
+
+.tight {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container-even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 5px #D0E7D2 solid;
+    height: 250px;
+    width: 350px
+}
+
+h1, h2, h3, h4, h5, p, li {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.italic {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+h1, h2, footer {
+    text-align: center;
+}
+
+hr {
+    color: #B0D9B1;
+    border: 5px #79AC78 solid;
+    border-radius: 50%;
+}
+
+.padded {
+    padding-top: 20px;
+}
+
+.padded-left {
+    padding-left: 30px;
+}
+
+.absolute {
+    position: absolute;
+    top: 25px;
+    left: 25px
+}
+
+.btn-primary {
+    background-color: #618264;
+    border: #618264;
+}
+
+.btn-outline-primary {
+    color: #618264;
+    border-color: #618264;
+}
