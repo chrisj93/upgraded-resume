@@ -46,12 +46,6 @@ p, li {
     font-size: 1.1rem;
 }
 
-.italic {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-}
-
 h1, h2, footer {
     text-align: center;
 }
