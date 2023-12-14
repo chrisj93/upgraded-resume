@@ -29,8 +29,21 @@
     width: 350px
 }
 
-h1, h2, h3, h4, h5, p, li {
-    font-family: 'Ubuntu', sans-serif;
+h1, h2 {
+    font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-top: 5px;
+}
+
+h3, h4, h5, p, li {
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+p, li {
+    font-size: 1.1rem;
 }
 
 .italic {
@@ -44,13 +57,9 @@ h1, h2, footer {
 }
 
 hr {
-    color: #B0D9B1;
+    color: #637E76;
     border: 5px #79AC78 solid;
     border-radius: 50%;
-}
-
-.padded {
-    padding-top: 20px;
 }
 
 .padded-left {
@@ -64,11 +73,11 @@ hr {
 }
 
 .btn-primary {
-    background-color: #618264;
-    border: #618264;
+    background-color: #637E76;
+    border: #637E76;
 }
 
 .btn-outline-primary {
-    color: #618264;
-    border-color: #618264;
+    color: #637E76;
+    border-color: #637E76;
 }
