@@ -1,3 +1,9 @@
+.sage {
+    background: linear-gradient(300deg, #fff6ea, #637E76, #fff6ea);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
 .center {
     display: flex;
     justify-content: center;
