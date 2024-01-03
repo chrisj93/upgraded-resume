@@ -4,18 +4,25 @@
     animation: gradient-animation 18s ease infinite;
 }
 
-.center {
+.logo {
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.name > h1 {
+    font-size: 2rem;
 }
 
 .heavy {
     font-weight: 700;
-}
-
-.tight {
-    padding-left: 60px;
-    padding-right: 60px;
 }
 
 .flex-container {
@@ -23,16 +30,24 @@
     justify-content: space-between;
 }
 
-.flex-container-even {
-    display: flex;
-    justify-content: space-evenly;
+.pictures {
+    text-align: center;
 }
 
 .profile-pic {
     border-radius: 50%;
-    border: 5px #637E76 solid;
-    height: 250px;
-    width: 350px
+    height: 90px;
+    width: 108px;
+}
+
+.top-buttons {
+    text-align: center;
+}
+
+.buttons {
+    width: 140px; 
+    font-family: 'Great Vibes', cursive; 
+    font-size: 1.5rem
 }
 
 h1, h2 {
@@ -40,7 +55,7 @@ h1, h2 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 5px;
 }
 
@@ -48,8 +63,12 @@ h3, h4, h5, p, li {
     font-family: 'Hedvig Letters Serif', serif;
 }
 
-p, li {
+h4 {
     font-size: 1.1rem;
+}
+
+p, li {
+    font-size: .9rem;
 }
 
 h1, h2, footer {
@@ -62,14 +81,18 @@ hr {
     border-radius: 50%;
 }
 
-.padded-left {
-    padding-left: 30px;
+.divider {
+    display: flex;
+    justify-content: center;
 }
 
-.absolute {
-    position: absolute;
-    top: 25px;
-    left: 25px
+.divider > img {
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.padded-left {
+    padding-left: 30px;
 }
 
 .btn-primary {
@@ -80,4 +103,66 @@ hr {
 .btn-outline-primary {
     color: #637E76;
     border-color: #637E76;
+}
+
+footer > p {
+    font-family: 'Great Vibes', cursive; font-size: 1.1rem;
+}
+
+@media (max-width: 408px) {
+    .profile-pic {
+        height: 75px;
+        width: 90px
+    }    
+}
+
+@media (min-width: 992px) {
+    .logo > img {
+        height: 60px;
+    }
+
+    .name > h1 {
+        font-size: 2.5rem;
+    }
+
+    .pictures > img {
+        height: 240px;
+        width: 330px;
+    }
+
+    .buttons {
+        width: 240px; 
+        font-family: 'Great Vibes', cursive; 
+        font-size: 1.6rem
+    }
+
+    body > div.container.justify-content-evenly > div > div.col.top-buttons.contme {
+        margin-left: 225px;
+    }
+
+    body > div.container.justify-content-evenly > div > div.col.top-buttons.linkedin {
+        margin-right: 225px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        padding-top: 5px;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    p, li {
+        font-size: 1rem;
+    }
+
+    .orgndates {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer > p {
+        font-size: 1.5rem;
+    }
 }
